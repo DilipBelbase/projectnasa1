@@ -1,0 +1,658 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body {
+ margin:0px;
+ padding: 0px;
+  height: 100vh;
+  width: 100vw;
+  
+}
+.main{
+  margin: 0;
+  padding: 0;
+
+ width: 100vw;
+
+  font-family: "Poppins", serif;
+}
+.navbar {
+  height: 80px;
+  width: 100vw;
+  
+  background-color: black;
+  color: aliceblue;
+  display: flex;
+ 
+  gap: 1%;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+#option {
+  background-color: aqua;
+}
+.items {
+  font-size: large;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#live {
+  font-size: small;
+}
+.items :hover {
+  color: red;
+}
+#explore {
+  margin-left: 30px;
+
+}
+#search {
+  background-color: black;
+  border: 1px solid white;
+  padding: 5px;
+  width: 180px;
+}
+#logo {
+  margin-left: 30%;
+}
+#news {
+  margin-left: 350px;
+}
+#live {
+  border: 1px solid red;
+  font-family: "Times New Roman", Times, serif;
+}
+#livee :hover {
+  background-color: red;
+  color: white;
+}
+.container1 {
+  border: 1px solid black;
+  height: 700px;
+ background-image: url(../images/54309196486-d058d6d524-o.webp);
+  background-size: cover;
+background-repeat: no-repeat;
+  opacity: 1;
+  background-position:center;
+}
+
+.text {
+  
+  height: 50%;
+  width: 50%;
+  line-height: 0;
+
+  
+  margin-top: 13%;
+  margin-left: 17px;
+  color: white;
+
+  padding: 1%;
+  text-shadow: 5px 5px 5px 5px black;
+}
+
+#large {
+  font-size: 70px;
+  text-shadow: 15px 15px 15px black;
+  margin-top: 2%;
+}
+.msg {
+  text-align: justify;
+  font-size: larger;
+  
+  line-height: 1.5;
+  margin-top: 8%;
+}
+.buttond{
+ border-radius: 1%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  font-size: x-large;
+  font-weight: bold;
+  width: 40%;
+  
+  justify-content: center;
+  box-shadow: 5px 5px 5px beige;
+  border-radius: 10px;
+  margin-top: 2%;
+
+}
+
+.lll :hover{
+  background-color: red;
+}
+.buttond{
+  background-color: brown;
+}
+.botm{
+  display: flex;
+  gap: 5%;
+  width: 60%;
+
+  line-height: 2;
+  margin-left: 5%;
+
+
+}
+.ky{
+  color: aliceblue;
+  font-size: large;
+}
+
+
+
+
+#arrow {
+  border: 1px solid white;
+  background-color: red;
+  color: white;
+  padding: 8px;
+  border-radius: 500px;
+}
+.container2 {
+  height: 64vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+}
+.info {
+  
+  height: 95%;
+  width: 80%;
+}
+.title {
+  display: flex;
+
+  margin-top: 1%;
+}
+#more {
+  margin-left: 51%;
+  margin-top: 3.5%;
+
+  font-size: x-large;
+}
+#featu {
+  font-size: 50px;
+}
+.newsimg {
+  height: 80%;
+  display: flex;
+  margin-top: 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 1%;
+  transition: 0.3s;
+  
+
+}
+.imgs {
+  width: 43%;
+}
+.imgss {
+  width: 25%;
+}
+.imgsss {
+  width: 30%;
+}
+.imgs1 {
+  height: 202px;
+}
+.imgss1 {
+  height: 202px;
+  margin-top: 4%;
+}
+#fc {
+  color: wheat;
+  font-weight: bolder;
+  margin-left: 1%;
+}
+.newsimg :hover {
+  scale: 1.04;
+}
+#linknews {
+  color: black;
+}
+.imgs,
+.imgss,
+.imgsss,
+.imgss1 {
+  transition: 0.3s;
+}
+.imgs:hover,
+.imgss:hover,
+.imgsss:hover,
+.imgss1:hover {
+  scale: 1.04;
+}
+.circle {
+ 
+  height: 15vh;
+  gap: 5px;
+  display: flex;
+  width: 80%;
+  margin-left: 10%;
+  justify-content: center;
+  align-items: center;
+}
+.c {
+  
+  height: 15vh;
+ 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+#img9 {
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
+  margin-top: 15px;
+  padding: 10px;
+}
+.caption {
+  line-height: 1.2;
+  font-size: small;
+  font-weight: bold;
+  align-items: center;
+  justify-content: center;
+
+}
+#thin {
+  font-weight: 100;
+}
+#thin {
+  font-size: medium;
+  font-weight: 300;
+}
+.container3 {
+  height: 70vh;
+
+  /* border: 1px solid black; */
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: white;
+}
+.videotxt {
+  /* border: 1px solid black; */
+  height: 40vh;
+  width: 30vw;
+  padding: 20px;
+  margin-top: 10%;
+}
+#yr {
+  font-size: large;
+  font-weight: 700;
+  
+}
+.jan1 :hover {
+  color: red;
+}
+.container4{
+
+  justify-content: center;
+  align-items: center;
+  height: 76vh;
+ 
+ 
+}
+.planet{
+  display: flex;
+
+
+justify-content: center;
+align-items: center;
+gap: 46%;
+padding: 4%;
+
+
+}
+.planetimg{
+  display: flex;
+  gap: 1%;
+ align-items: center;
+ justify-content: center;
+ 
+  margin-left: 1%;
+  width: 97%;
+}
+#sun{
+  height: 450px;
+  width: 320px;
+}
+#yr2{
+  color: black;
+  font-size: large;
+  font-weight: bold;
+}
+.planetimg :hover{
+  scale: 1.04;
+  
+}
+.plimg{
+  transition: 0.3sec;
+}
+ .planetimg{
+  scale: 1.04;
+}
+.plimg :hover{
+  scale: 1.04;
+}
+#sun{
+  transition: 0.3s;
+}
+.container5{
+  background-image: url(../images/blackmarble-2016-americas-composite-transformed.png);
+  border: 1px solid black;
+  height: 87vh;
+
+background-repeat: no-repeat;
+background-size: cover;
+background-position: right;
+
+color: white;
+
+
+}
+.earthinfo{
+  height: 60vh;
+  width: 40vw;
+ border: 1px solid black;
+  text-align: justify;
+  margin: 200px 170px;
+}
+#large2{
+  font-size: 90px;
+  line-height: 0.9;
+  text-shadow: 100px 105px 105px black;
+
+}
+#einfo{
+  font-size: large;
+  font-weight: 400;
+  text-shadow: 50px 50px 50px black;
+}
+.startex :hover{
+  color: red;
+}
+#yr3{
+  font-size: x-large;
+
+}
+.startex{
+  margin-top: 35px;
+}
+.vdo{
+border: 1px solid white;
+box-shadow: 5px 5px 5px whitesmoke;
+}
+.container6{
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.imgofday{
+  height: 70vh;
+  width: 90vw;
+ 
+  display: flex;
+  margin-left: 80px;
+  
+}
+.textday{
+  
+  height: 70vh;
+
+  width: 25vw;text-align: justify;
+
+}
+.today{
+  margin-top: 15%;
+}
+
+#imgdayh{
+  font-size: 46px;
+}
+.imgdaytxt{
+  margin-top: 10%;
+  line-height: 2;
+
+}
+#best{
+  line-height: 1.3;
+}
+.daypic{
+
+  width: 70%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 30px;
+  
+
+}
+.container7{
+  height: 50vh;
+  margin-top: 4%;
+
+}
+#imgday1{
+  border-radius: 5%;
+  box-shadow:15px 15px 15px grey;
+  transition: 0.3s;
+}
+.daypic :hover{
+  scale: 1.06;
+ 
+
+}
+
+.pictures{
+ 
+  display: flex;
+ gap: 20px;
+ width: 98;
+ align-items: center;
+ justify-content: center;
+padding: 30px;
+margin-top: 2%;
+}
+#mni{
+  margin-left: 9.1%;
+  font-size: 40px;
+}
+.pictur{
+  transition: 0.3s;
+}
+.pictures :hover{
+scale: 1.05;
+}
+
+
+.container8{
+  height: 60vh;
+  border: 1px solid black;
+  margin-top: 4%;
+  background-image: url(../images/webb-tarantula-neb-Z_v3cy7V8-transformed.png);
+  background-size: cover;
+background-repeat: no-repeat;
+  opacity: 1;
+  background-position:center;
+ 
+}
+.sinuptxt{
+  /* border: 1px solid black; */
+  height: 60vh;
+  width: 40vw;
+  color: white;
+  margin-left: 10%;
+
+}
+.expuni{
+  /* border: 1px solid black; */
+  height: 23vh;
+  width: 30vw;
+  font-size: 30px;
+  color: white;
+  line-height: 1.2;
+  margin-top: 15%;
+}
+.expuni1{
+  /* border: 1px solid black; */
+  height: 23vh;
+  width: 30vw;
+  font-weight: bold;
+ 
+  color: white;
+}
+#stay{
+  line-height: 1.01;
+}
+#sinup11{
+  font-size: 30px;
+  font-weight: bold;
+
+ 
+}
+.sinup{
+  margin-top: 4%;
+}
+.sinup :hover{
+  color: red;
+}
+
+.container9{
+  height: 100vh;
+  padding: 0px 10% 10% 10%;
+  
+
+}
+.mt{
+  font-size: 40px;
+  font-weight: bold;
+  margin-top: 4%;
+  margin-left: 1%;
+
+}
+.mtimg{
+  margin-top: 6%;
+
+  height: 97vh;
+  display: grid;
+  grid-template-columns: repeat(4,300px);
+  gap: 3%;
+  justify-content: center;
+
+}
+.mtimage{
+  transition: 0.3s;
+}
+.mtimg :hover{
+  scale: 1.04;
+}
+.container10{
+  height: 60vh;
+  /* border: 1px solid black; */
+  color: white;
+  background-color: black;
+ 
+}
+.footer{
+border-top: 1px solid black;
+  height: 60vh;
+  width: 85%;
+  margin-left: 8%;
+}
+.lstlogo{
+  margin-top: 50px;
+}
+.naas{
+  /* border: 1px solid black; */
+  height: 30vh;
+  margin-top: 2.5%;
+  display: flex;
+ 
+}
+.naas1{
+  /* border: 1px solid yellow; */
+  height: 30vh;
+ 
+  width: 25vw;
+  
+}
+#ju{
+
+font-size: larger;
+font-weight: bolder;
+
+}
+.flb1{
+  display: flex;
+
+  /* border: 1px solid blueviolet; */
+  margin-left:7%;
+}
+.fotlink{
+  /* border: 1px solid black; */
+  width: 12vw;
+  line-height: 1.9;
+
+
+ 
+
+}
+.contnasa{
+  color: grey;
+  /* border: 1px solid red; */
+  width: 20vw;
+  gap: 20px;
+  height: 10vw;
+ 
+  text-align:center;
+margin-top: 1%;
+}
+.lstlink :hover{
+  text-decoration: underline;
+  text-decoration:underline;
+  color: red;
+}
+
+.ftlst{
+  border-top: 2px solid gray;
+  font-weight:1px;
+  
+
+}
+li{
+  list-style: none;
+
+}
+ol{
+  margin-top: 2%;
+  display: flex;
+  gap: 2.5%;
+ 
+
+}
+.lstlink2 :hover{
+  color:red;
+}
+
+#dilip{
+  color:grey;
+  font-size: small;
+}

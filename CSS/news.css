@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  body {
+   margin:0px;
+   padding: 0px;
+    height: 100vh;
+    width: 100vw;
+    
+  }
+  .main{
+    margin: 0;
+    padding: 0;
+  
+   width: 100vw;
+  
+    font-family: "Poppins", serif;
+  }
+  .navbar {
+    height: 80px;
+    width: 100vw;
+    
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+   
+    gap: 1%;
+  }
+  a {
+    text-decoration: none;
+    color: white;
+  }
+  #option {
+    background-color: aqua;
+  }
+  .items {
+    font-size: large;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #live {
+    font-size: small;
+  }
+  .items :hover {
+    color: red;
+  }
+  #explore {
+    margin-left: 30px;
+  
+  }
+  #search {
+    background-color: black;
+    border: 1px solid white;
+    padding: 5px;
+    width: 180px;
+  }
+  #logo {
+    margin-left: 30%;
+  }
+  #news {
+    margin-left: 350px;
+  }
+  #live {
+    border: 1px solid red;
+    font-family: "Times New Roman", Times, serif;
+  }
+  #livee :hover {
+    background-color: red;
+    color: white;
+  }
+  .container2 {
+    height: 64vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+  
+  }
+  .info {
+    
+    height: 95%;
+    width: 80%;
+  }
+  .title {
+    display: flex;
+  
+    margin-top: 1%;
+  }
+  #more {
+    margin-left: 51%;
+    margin-top: 3.5%;
+  
+    font-size: x-large;
+  }
+  #featu {
+    font-size: 50px;
+  }
+  .newsimg {
+    height: 80%;
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 1%;
+    transition: 0.3s;
+    
+  
+  }
+  .imgs {
+    width: 43%;
+  }
+  .imgss {
+    width: 25%;
+  }
+  .imgsss {
+    width: 30%;
+  }
+  .imgs1 {
+    height: 202px;
+  }
+  .imgss1 {
+    height: 202px;
+    margin-top: 4%;
+  }
+  #fc {
+    color: wheat;
+    font-weight: bolder;
+    margin-left: 1%;
+  }
+  .newsimg :hover {
+    scale: 1.04;
+  }
+  #linknews {
+    color: black;
+  }
+  .imgs,
+  .imgss,
+  .imgsss,
+  .imgss1 {
+    transition: 0.3s;
+  }
+  .imgs:hover,
+  .imgss:hover,
+  .imgsss:hover,
+  .imgss1:hover {
+    scale: 1.04;
+  }
+  
+ 
